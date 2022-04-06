@@ -1,0 +1,13 @@
+Title: Hello world
+----
+Intro: This was awesome
+----
+Text:
+----
+Year: 2022
+----
+Category: Editorial
+----
+Client: 
+----
+Credits: 

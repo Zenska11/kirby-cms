@@ -18,4 +18,4 @@ Link:
 
 ----
 
-Template: agency-project-cover
+Template: gallery-image

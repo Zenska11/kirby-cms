@@ -38,7 +38,11 @@ columns:
   - width: 1/2
     sections:
       gallery:
+        headline: Project gallery
+        size: tiny
+        info: "{{file.dimensions}}"
         type: files
         layout: cards
+        template: gallery-image
         image:
           ratio: 1/1

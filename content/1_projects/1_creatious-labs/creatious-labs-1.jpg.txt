@@ -1,8 +1,8 @@
-Caption: 
+Alt: Someone spills a carton of water into a lake. Yep, I don't get it either!
 
 ----
 
-Alt: Someone spills a carton of water into a lake. Yep, I don't get it either!
+Caption: What a nice Waterfall
 
 ----
 
@@ -18,7 +18,7 @@ Link:
 
 ----
 
-Template: agency-project-image
+Template: gallery-image
 
 ----
 

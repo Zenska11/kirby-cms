@@ -1,5 +1,9 @@
 <?php snippet('header') ?>
 
+<pre>
+<?php var_dump($page) ?>
+</pre> 
+
 <main class="main">
 
     <article>

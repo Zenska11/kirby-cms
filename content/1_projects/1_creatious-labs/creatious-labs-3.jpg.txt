@@ -2,4 +2,4 @@ Template: gallery-image
 
 ----
 
-Sort: 3
+Sort: 4

@@ -19,3 +19,7 @@ Link:
 ----
 
 Template: gallery-image
+
+----
+
+Sort: 2

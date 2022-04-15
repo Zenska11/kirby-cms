@@ -1,5 +1,5 @@
 <footer>
-    <a href="https://twitter.com/<?= $site->twitter() ?>">Follow us on Twitter</a>
+    <i>Created with love and Kirby</i>
 </footer>
 </body>
 

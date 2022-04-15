@@ -27,8 +27,8 @@ tabs:
             size: tiny
             type: files
             layout: cards
-            template: gallery-image
             max: 1
+            required: true
 
   media:
     sections:

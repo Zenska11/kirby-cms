@@ -18,14 +18,24 @@
                 <?php endif ?>
 
                 <dl>
+                    <?php if ($page->provider()->isNotEmpty()) : ?>
+                        <dt>Provider</dt>
+                        <dd><?= $page->provider() ?></dd>
+                    <?php endif ?>
+
                     <?php if ($page->year()->isNotEmpty()) : ?>
                         <dt>Release</dt>
                         <dd><?= $page->year() ?></dd>
                     <?php endif ?>
 
-                    <?php if ($page->category()->isNotEmpty()) : ?>
-                        <dt>Category</dt>
-                        <dd><?= $page->category() ?></dd>
+                    <?php if ($page->service()->isNotEmpty()) : ?>
+                        <dt>Services</dt>
+                        <dd><?= $page->service() ?></dd>
+                    <?php endif ?>
+
+                    <?php if ($page->pricing()->isNotEmpty()) : ?>
+                        <dt>Pricing</dt>
+                        <dd><?= $page->pricing() ?></dd>
                     <?php endif ?>
 
                     <?php if ($page->link()->isNotEmpty()) : ?>
@@ -44,11 +54,19 @@
                             </figcaption>
                         </figure>
                     </li>
+                    <?php foreach ($page->serviceimages()->toFiles() as $image) : ?>
+                        <li>
+                            <figure>
+                                <img src="<?= $image->resize(1200, 1200)->url()  ?>" alt="<?= $image->alt() ?>">
+                                <figcaption>
+                                    <?= $image->caption() ?>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    <?php endforeach ?>
                 </ul>
             </div>
         </div>
-
-
 
     </article>
 </main>

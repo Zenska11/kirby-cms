@@ -5,8 +5,9 @@ sections:
     headline: Drafts
     type: pages
     layout: list
-    template: technology
-    info: "{{ page.category}}"
+    template: 
+      - technology
+      - cloud
     status: drafts
     help: Always upload a nice cover first
     image:
@@ -16,8 +17,9 @@ sections:
     headline: Published Categories
     type: pages
     layout: cards
-    template: technology
-    info: "{{ page.category}}"
+    template:
+      - technology
+      - cloud
     status: published
     limit: 5
     image:
